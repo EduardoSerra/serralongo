@@ -362,7 +362,8 @@ header {
 	position:relative;
 	background-repeat:no-repeat;
 	background-position:center;
-	background-attachment: fixed
+	background-attachment: fixed;
+	background-image:url('../banner.jpg');
 }
 	.inside_intro {
 		height: 50%;
@@ -1697,6 +1698,10 @@ header {
 }
 
 @media (max-width:480px){
+	.home_intro {
+		background:url('../banner.jpg') -1000px 0;
+	}
+
 	.story_txt p {
 		margin: 0;
 	}
