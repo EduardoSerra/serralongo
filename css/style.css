@@ -1699,7 +1699,8 @@ header {
 
 @media (max-width:480px){
 	.home_intro {
-		background:url('../banner.jpg') -1220px -160px;
+		background:url('../banner.jpg') -980px 0px;
+		background-size: cover;
 	}
 
 	.story_txt p {
