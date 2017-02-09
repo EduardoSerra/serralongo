@@ -1649,7 +1649,23 @@ header {
 
 /*# 15. Responsive*/
 
+@media (max-width:1024px){
+	.home_intro {
+		background-attachment: scroll;
+		background:url('../banner-ipad.jpg') 44%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	}
+
+
 @media (max-width:992px){
+	.home_intro {
+		background-attachment: scroll;
+		background:url('../banner-ipad.jpg') 44%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 	.owl-controls {
 		margin: 0 0 20px 0
 	}
@@ -1665,6 +1681,9 @@ header {
 	}
 	.home_intro {
 		background-attachment: scroll;
+		background:url('../banner-ipad.jpg') 44%;
+		background-size: cover;
+		background-repeat: no-repeat;
 	}
 	.hotel {
 		background-attachment: scroll;
@@ -1699,7 +1718,7 @@ header {
 
 @media (max-width:480px){
 	.home_intro {
-		background:url('../banner.jpg') 82%;
+		background:url('../banner-ipad.jpg') 54%;
 		background-size: cover;
 		background-repeat: no-repeat;
 
