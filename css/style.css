@@ -524,8 +524,9 @@ header {
 	.bullet span {
 		position: absolute;
 		margin: -3px 0 0 -42px;
-		opacity: 0.5;
-		font: 400 18px/28px Roboto Condensed
+		font-family: Roboto Condensed;
+		font-size:24px;
+		line-height: 28px;
 	}
 		.bullet span b {
 			font: 400 18px/28px Roboto Condensed;
@@ -1357,8 +1358,10 @@ header {
 		margin: 20px auto 0
 	}
 	.title0 {
-		font:300 16px/28px Roboto Condensed;
-		color:rgba(255,255,255,0.5);
+		font-family: Roboto Condensed;
+		font-size:26px;
+		color:white;
+		line-height: 30px;
 	}
 	.title1 {
 		font:46px/48px Great Vibes;
