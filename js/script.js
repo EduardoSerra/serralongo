@@ -144,7 +144,7 @@
 		/*Registry Carousel */
 		$(".registry_wrapper").owlCarousel({
 	 		navigation : true, responsive: true, responsiveRefreshRate : 200, slideSpeed : 200, paginationSpeed : 200,
-			rewindSpeed : 500,	stopOnHover : true, autoHeight : true, items:3, mouseDrag:false, autoPlay : true
+			rewindSpeed : 500,	stopOnHover : true, autoHeight : true, items:3, mouseDrag:false, autoPlay : false
 		});
 
 		/*The Crew Carousel*/
