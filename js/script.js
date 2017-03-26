@@ -137,7 +137,7 @@
 		/*Gallery Carousel */
 		$(".gallery_wrapper").owlCarousel({
 	 		navigation : true,	responsive: true, responsiveRefreshRate : 200,	slideSpeed : 200,	
-	 		paginationSpeed : 200,	rewindSpeed : 500,	items:3,  itemsTablet: [768,2], autoPlay : true,
+	 		paginationSpeed : 200,	rewindSpeed : 500,	items:3,  itemsTablet: [768,2], autoPlay : false,
 			itemsMobile : [479,1], mouseDrag:false
 		});
 
