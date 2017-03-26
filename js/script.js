@@ -128,6 +128,12 @@
 			itemsMobile : [479,1], 	itemsDesktopSmall : [980,1],  itemsDesktop : [1500,2], mouseDrag:false
 		});
 
+		$("#tips_wrapper").owlCarousel({
+	 		navigation : true,	responsive: true, responsiveRefreshRate : 200,	slideSpeed : 200,	
+	 		paginationSpeed : 200,	rewindSpeed : 500,	items:3,  itemsTablet: [768,1], autoPlay : false,
+			itemsMobile : [479,1], 	itemsDesktopSmall : [980,1],  itemsDesktop : [1500,2], mouseDrag:false
+		});
+
 		/*Gallery Carousel */
 		$(".gallery_wrapper").owlCarousel({
 	 		navigation : true,	responsive: true, responsiveRefreshRate : 200,	slideSpeed : 200,	
