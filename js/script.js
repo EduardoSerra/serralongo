@@ -119,7 +119,7 @@
 
 		
 		/*CountDown*/
-		$('.married_coundown').countdown({until: new Date(2015, 12, 19)});
+		$('.married_coundown').countdown({until: new Date(2022, 2, 5)});
 		
 		/*OWL Carousel in Our Story*/
 		$(".story_wrapper").owlCarousel({
